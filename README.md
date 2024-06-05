@@ -28,3 +28,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
 ```
+
+## Release
+###[Download](https://github.com/withziang/webDev-frontend-template-jsx-react-bootstrap/archive/refs/tags/v1.0.0.zip)
