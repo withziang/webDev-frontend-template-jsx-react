@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import RouteList from './routes/routeList';
 
 //---------------------------- General     CSS ----------------------------------------------------------------------
@@ -10,9 +10,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const App = () => {
     return (
         <>
-            <Router>
+            <BrowserRouter>
                 <RouteList/>
-            </Router>
+            </BrowserRouter>
         </>
     );
 }
