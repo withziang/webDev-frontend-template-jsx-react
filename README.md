@@ -1,2 +1,13 @@
-# WebDev-Frontend-Template-JSX-React_Bootstrap
-template for quick development
+# Getting Started with Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Available Scripts
+
+
+
+### `npm run start`
+
+
+### `npm run build`
+
