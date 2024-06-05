@@ -30,4 +30,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ```
 
 ## Release
-###[Download](https://github.com/withziang/webDev-frontend-template-jsx-react-bootstrap/archive/refs/tags/v1.0.0.zip)
+[Download](https://github.com/withziang/webDev-frontend-template-jsx-react-bootstrap/archive/refs/tags/v1.0.0.zip)
