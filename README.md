@@ -14,7 +14,7 @@
 ### `npm run build`
 
 ## Dependencies
-Use this to install node_modules
+Use `npm install` to install node_modules
 ```
   "dependencies": {
     "@emotion/react": "^11.11.4",
