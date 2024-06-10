@@ -5,20 +5,23 @@ import { Routes, Route } from 'react-router-dom';
 //----------------------------    Import Pages   ----------------------------------------------------------------
 
 
-import Layout from "../layout/layout";
-import HomePage from "../pages/board-pages/homePage";
+
 
 const Layout = React.lazy(() => import('../layout/layout'));
 const HomePage = React.lazy(() => import('../pages/board-pages/homePage'));
+
+const ErrorPage = React.lazy(() => import('../pages/utility-pages/errorPage'));
+const LoadingPage = React.lazy(() => import('../pages/utility-pages/loadingPage'));
 //----------------------------    Routes  ----------------------------------------------------------------
 
 const RouteList = () => (
     <>
-        <Suspense fallback={<div>Loading...</div>}>
+        <Suspense fallback={<LoadingPage/>}>
             <Routes>
                 <Route element={<Layout />}>
                     <Route exact path="/" element={<HomePage />} />
                 </Route>
+                <Route path="*" element={<ErrorPage />} />
             </Routes>
         </Suspense>
     </>
