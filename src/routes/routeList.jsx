@@ -4,12 +4,6 @@ import { Routes, Route } from 'react-router-dom';
 
 //----------------------------    Import Pages   ----------------------------------------------------------------
 
-
-<<<<<<< HEAD
-
-
-=======
->>>>>>> ec626781e10ccab02e903ff49d471a318e6ffe73
 const Layout = React.lazy(() => import('../layout/layout'));
 const HomePage = React.lazy(() => import('../pages/board-pages/homePage'));
 
