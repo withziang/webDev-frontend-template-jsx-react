@@ -3,7 +3,7 @@ name: Node.js Package
 on:
   push:
     tags:
-      - 'v*.*.*'  # Triggers on version tags
+      - 'v1.0.2'  # Triggers on version tags
 
 jobs:
   build:
