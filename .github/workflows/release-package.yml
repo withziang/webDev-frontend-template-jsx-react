@@ -3,6 +3,11 @@ name: Publish package to GitHub Packages
 on:
   release:
     types: [published]
+    branches:
+      - main
+    paths:
+      - 'src/**'
+      - '.github/workflows/release-package.yml'
 
 jobs:
   build:
