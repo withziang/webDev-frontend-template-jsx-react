@@ -3,6 +3,7 @@
 - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 - Using bootstrap for css, react-bootstrap and material UI as component
 
+
 ## Available Scripts
 
 
@@ -13,7 +14,7 @@
 ### `npm run build`
 
 ## Dependencies
-
+Use this to install node_modules
 ```
   "dependencies": {
     "@emotion/react": "^11.11.4",
